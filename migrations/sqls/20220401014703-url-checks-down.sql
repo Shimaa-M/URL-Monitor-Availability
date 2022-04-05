@@ -1,0 +1,1 @@
+DROP table url_checks;

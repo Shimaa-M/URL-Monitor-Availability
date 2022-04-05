@@ -1,0 +1,4 @@
+cron:
+    - description: "test service availability"
+      url: /health
+      schedule: every 1 mins

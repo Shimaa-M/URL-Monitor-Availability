@@ -1,0 +1,19 @@
+{
+  "defaultENV": { "ENV": "NODE_ENV" }, 
+  "dev": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "monitor_dev",
+    "user": "postgres",
+    "password": "postgres",
+    "dialect" : "postgres"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "monitor_test",
+    "user": "postgres",
+    "password": "postgres",
+    "dialect" : "postgres"
+  }
+}
